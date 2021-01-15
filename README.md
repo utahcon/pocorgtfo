@@ -1,0 +1,23 @@
+# PoC||GTFO
+If you are unfamiliar with the
+[_International Journal of Proof-of-Concept or Get The F*ck Out_](https://www.alchemistowl.org/pocorgtfo/) (my edit)
+then I encourage you, dear reader, to become familiar with it. It is a great read by hackers for hackers.
+
+## Long story short
+One thing geeks like myself have taken to doing, is preserving the history of the internet by replicating information to
+sites and servers with better control. That is why I have created this repo, which automatically updates daily (thanks
+Github Workflows!)
+
+You can view my mirror of the site at https://utahcon.github.io/pocorgtfo
+
+## Join the fun!
+If you have a Github account, you can play along at home!
+
+0. Simply fork [utahcon/pocorgtfo](https://github.com/utahcon/pocorgtfo). Click [here](https://docs.github.com/en/enterprise-server@2.20/github/getting-started-with-github/fork-a-repo) for instructions
+0. Create a new [Personal Access Token](https://github.com/settings/tokens).
+0. Create a [new repo secret](https://docs.github.com/en/free-pro-team@latest/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository) called `PERSONAL_GITHUB_TOKEN` using your Personal Access Token value.
+0. Watch the repo update daily.
+
+### Calm yourself
+There isn't new content daily, but it will run a Github Workflow daily to make sure that if something new appears on the
+main PoC||GTFO page, it will be replicated here. Enjoy!

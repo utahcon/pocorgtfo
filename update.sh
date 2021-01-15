@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 URL="https://www.alchemistowl.org/pocorgtfo/"
-wget -r "${URL}"
+rm *.pdf *.txt *.html
+wget -nd -r --show-progress --progress=bar:force:noscroll "${URL}"
 git add .
-git commit -m "Automatic update to repo"
+git commit -m "Automatic update"
 git push
