@@ -5,6 +5,8 @@ CHANGE=0
 
 URL="https://www.alchemistowl.org/pocorgtfo/"
 
+rm index.html
+
 wget -nc "${URL}"
 
 # MD5 Checksum
@@ -33,5 +35,5 @@ done < index.html
 if [[ $OK && $CHANGE ]]; then
   git add .
   git commit -m "Automatic update to repo"
-  git push origin main
+  git push
 fi
